@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ededed;
+    background-color: #cafac8;
   }
   /* =========== HEADER ========= */
   header {
@@ -11,7 +11,6 @@ body {
   header div {
     width: 80%;
     height: 100%;
-    text-align: center;
     margin:0px;
   }
   header div img {
@@ -20,12 +19,12 @@ body {
   .main-nav{
     display: inline-flex;
     float:right;
-    padding-right: 45px;
   }
   .main-nav ul li{
     display: inline-block;
     margin-top:23px;
     color: black;
+
     font-family: 'Montserrat', sans-serif;
     margin-right: 25px;
   
@@ -34,54 +33,52 @@ body {
     cursor: pointer;
     text-decoration: underline;
   }
+ 
+    /* =========== TITULO ========= */
+
+
+  .titulo{
+   color: black;
+   width: 80%;
+   height: 100%;
+   text-align: center;
+   font-size: 40px; 
+   justify-content: center;
+   text-decoration-style: wavy;
+  }
+
   
-  /* ===========  ========= */
-  .btn{
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
-    border: none;
-    display:inline-block;
-    color: #0c9db3;
-    border: 1px solid #0c9db3;
-    border-radius: 20px;
-    font-size: 14px;
-    padding: 10px 25px 10px 25px;
-    background-color: #ededed;
-  }
-  .btn-submit {
-    color: white;
-    background-color:#0c9db3;
-    float:right;
-    font-size: 12px;
-  }
-  .main-container{
-    display: flex;
-    flex-direction: column;
+  /* =========== BOTON PARA ADJUNTAR ARCHIVO ============ */
+
+
+  .title-container{
+    width: 80%;
+    height: 100%;
+    text-align: center; 
+    font-size: 40px; 
     justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
-  .form-container{
-    width: 70%;
-  }
-  .form-title-container{
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .form-title-container h3{
-    font-family: 'Poppins', sans-serif;
-    font-size:32px;
-    display:inline-block;
-    color: #8341a2;
-  }
-  .underlined-wavy{
-    text-decoration: underline;
     text-decoration-style: wavy;
-    text-underline-offset: 10px;
   }
-  
+
+  .btn {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: green;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: green;
+    transition: all 1s ease;
+    position: relative;
+    margin-top: 70px ;
+    
+  }
+  .btn:hover {
+    background: #318aac;
+    color: #fff !important;
+  }
+
   
  
   
