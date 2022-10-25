@@ -161,7 +161,23 @@ body {
     justify-content: center;
     font-size: 25px;
   }
+/*====HC por tipo de org====*/
+.subtitulo{
+  font-size: 25px;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 100px;
+    padding-left: 10px;
 
+}
+
+.seleccionador{
+  font-size: 15 px;
+  text-align: center;
+  justify-content: center;
+
+
+}
 
   /*BOTONES PARA ACEPTAR Y RECHAZAR TRABAJADOR (todo ESTA MAL, NO ES UN FORM LO QUE HAY QUE HACER)*/
 
