@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <meta charset="utf-8">
+    <title>Registro de tramos</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+          <img src="../img/logo.png" alt="logo-header">
+          <nav class="main-nav">
+            <ul>
+              <li><button onclick="contacto()">Contacto</button></li>
+              <li><button onclick="logout()">Cerrar Sesión</button></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <div class = "title-container"> 
+        <h1 class = "titulo"> Registro de tramos</h1>
+    </div>    
+    <div class = "main-container">
+        <div class = "form"> 
+            <form class = "" action ="registroTramo.html" method = "post">
+                <div class = "grid-item"> 
+
+                    <label for = ""> Medio de transporte utilizado</label> 
+                    <select>
+                        <option value=""> Seleccionar</option>
+                        <option value=""> Transporte público</option>
+                        <option value=""> Vehículo particular</option>
+                        <option value=""> Servicio contratado</option>
+                        <option value=""> Vehículo ecológico</option>
+                    </select>
+    
+                <div class = "grid-item2"> 
+                    <label for=" " class = "labelForm"> Tramo compartido</label>
+                </div>
+                </div>
+
+                <div class ="radio-item">
+                    <input type ="radio" name = "tipo-transporte" value =""> 
+                    <label for="">Si</label>
+
+                <div class ="radio-item">
+                    <input type ="radio" name = "tipo-transporte" value =""> 
+                    <label for=""> No</label>
+                </div>                                                            
+                </div>
+                
+                <div class = "grid-item2"> 
+                    <label for=" " class="labelForm"> Recorrido</label>
+                                    
+ 
+                    <label for=""> Desde</label> 
+                    <input type ="text" name ="" value ="" class = "text-input">
+
+                    <label for=""> Hasta</label> 
+                    <input type ="text" name ="" value ="" class = "text-input">
+                </div>
+                <div class = "grid-item2"> 
+                    <label for=" " class="labelForm">Integrantes</label>
+   
+                    <label for=""> DNI</label> 
+                    <input type ="text" name ="" value ="" class = "text-input">
+                       
+                    <label for=""> Nombre</label> 
+                    <input type ="text" name ="" value ="" class = "text-input">
+                                                         
+                    <label for=""> Apellido</label> 
+                  <input type ="text" name ="" value ="" class = "text-input">
+                </div> 
+                
+            </form> 
+
+        </div>
+         
+    </div>
+    <div>    
+        <button onclick = "registrarTramo()" type ="button" name ="button" class = "btnTramo"> Registrar tramo </button>   
+       </div> 
+  </body>
+</html>

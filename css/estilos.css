@@ -130,7 +130,7 @@ body {
     justify-content: center;
   }
 
-  form{
+  .form{
     margin-top: 45px;
     margin-bottom: 45px;
     border-radius: 15px;
@@ -141,6 +141,12 @@ body {
 
   }
 
+  .radio-item{
+    display:inline-block;
+  }
+  .radio-item input, .radio-item label{
+    display: inline-block;
+  }
   .grid-item .text-input{
     padding: 10px;
     background-color: rgb(175, 175, 175);
@@ -170,6 +176,54 @@ body {
     width: 170px;
     height: 50px;
   }
+
+/*=============FORM DE TRAYECTOS===========================*/
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-left: 45px;
+  }
   
+  .grid-item2 label{
+    display:grid;
+    column-gap: 25px ; 
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .grid-item2 .text-input{
+    width:100%;
+    background-color: rgb(245, 241, 241);
+    border:rgb(12, 211, 12);
+    font-size: 10px;
+    font-family: 'Montserrat';
+    padding:10px;
+    border-radius:20px;
+
+  }
  
+  .labelForm{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+
+  .btnTramo{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: none;
+    display:inline-block;
+    color: #0d8b14;
+    border: 1px solid #42db05;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 25px 10px 25px;
+    background-color: #ededed;
+    margin-left: 1200px;
+  }
+
 /*--------------------------------- TODO ESTÁ MAL
