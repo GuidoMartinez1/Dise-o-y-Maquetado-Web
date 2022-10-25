@@ -172,10 +172,15 @@ body {
 }
 
 .seleccionador{
+  display: block;
   font-size: 15 px;
   text-align: center;
   justify-content: center;
 
+
+}
+.radio-item1{
+  display: block;
 
 }
 
@@ -285,4 +290,23 @@ body {
     margin-left: 1200px;
   }
 
-/*--------------------------------- TODO ESTÁ MAL
+/*Footer*/
+.pieDePag{
+  background-color: #12b53b;
+  padding-block-end: 100 px;
+}
+.footer-nav {
+  display: inline-block;
+  padding-right: 45px;
+  }
+.footer-nav ul li{
+    display: block;
+    margin-top:23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+  }
+ .footer-nav ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
