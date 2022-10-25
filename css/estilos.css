@@ -1,20 +1,28 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #cafac8;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  background-color: #cafac8;
   }
+
+  
+
+
   /* =========== HEADER ========= */
   header {
     background-color: #f5f2f7;
     height: 65px;
     width:100vw;
   }
-  header div {
-    width: 80%;
+  .header {
     height: 100%;
-    margin:0px;
   }
-  header div img {
+  .header img {
     height: 90%;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .main-nav{
     display: inline-flex;
@@ -24,8 +32,7 @@ body {
     display: inline-block;
     margin-top:23px;
     color: black;
-
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     margin-right: 25px;
   
   }
@@ -45,6 +52,7 @@ body {
    font-size: 40px; 
    justify-content: center;
    text-decoration-style: wavy;
+   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   }
 
   
@@ -57,6 +65,8 @@ body {
     text-align: center; 
     font-size: 40px; 
     justify-content: center;
+    padding-top: 50px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   }
 
   .btn {
@@ -179,7 +189,7 @@ body {
     background-color: rgb(175, 175, 175);
     border: none;
     font-size: 14px;
-    font-family: 'Montserrat';
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     padding: 10px;
     border-radius: 20px;
   }
