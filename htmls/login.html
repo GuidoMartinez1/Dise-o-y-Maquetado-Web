@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <meta charset="utf-8">
@@ -18,34 +20,45 @@
         <nav class="main-nav">
           <ul>
             <li><button onclick="contacto()">Contacto</button></li>
-            <li><button onclick="logout()">Cerrar Sesión</button></li>
           </ul>
         </nav>
       </div>
     </header>
 
-        
-    <div id="contenedor">
-        <div id="central">
-            <div id="login">
-                <div class="titulo">Bienvenido</div>
-                <form id="loginform">
-                    <input type="text" name="usuario" placeholder="Usuario" required>
-                    
-                    <input type="password" placeholder="Contraseña" name="password" required>
-                    
-                    <button type="submit" title="Ingresar" name="Ingresar">Login</button>
-                </form>
-                <div class="pie-form">
-                    <a href="#">¿Olvidaste la contraseña?</a>
-                    <a href="#">¿No tienes Cuenta? Registrate</a>
-                </div>
-            </div>
-            <div class="inferior">
-                <a href="#">Volver</a>
-            </div>
-        </div>
+  <div class="main-container">
+    <h1 class="titulo">Acceder al Sitio</h1>
+    <div class="login-page">
+      <div class="form">
+        <form class="login-form">
+          <input type="text" placeholder="Username"/>
+          <input type="password" placeholder="Password"/>
+          <button>login</button>
+          <p class="message">Olvidaste tu Password? <a href="#">Recuperar Contraseña</a></p>
+          <p class="message">No estas registrado)? <a href="#">Crear una cuenta</a></p>
+        </form>
+      </div>
     </div>
-        
+
+    
+    <!----------------------------------------------------- FOOTER ------------------------------------------------------------------------------->
+
+    <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Inicio</a></li>
+              <li class="list-inline-item"><a href="#">Servicios</a></li>
+              <li class="list-inline-item"><a href="#">Acerca de Nosotros</a></li>
+              <li class="list-inline-item"><a href="#">Terminos</a></li>
+              <li class="list-inline-item"><a href="#">Politicas de Privacidad</a></li>
+          </ul>
+          <p class="copyright">Huella de Carbono © 2022</p>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+<!----------------------------------------------------- FOOTER ------------------------------------------------------------------------------->
+ </div>     
  </body>
-</html>
+</html>  
