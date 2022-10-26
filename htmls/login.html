@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <meta charset="utf-8">
@@ -19,34 +20,23 @@
         <nav class="main-nav">
           <ul>
             <li><button onclick="contacto()">Contacto</button></li>
-            <li><button onclick="logout()">Cerrar Sesión</button></li>
           </ul>
         </nav>
       </div>
     </header>
 
   <div class="main-container">
-  
-    <div id="contenedor">
-        <div id="central">
-            <div id="login">
-                <div class="titulo">Bienvenido</div>
-                <form id="loginform">
-                    <input type="text" name="usuario" placeholder="Usuario" required>
-                    
-                    <input type="password" placeholder="Contraseña" name="password" required>
-                    
-                    <button type="submit" title="Ingresar" name="Ingresar">Login</button>
-                </form>
-                <div class="pie-form">
-                    <a href="#">¿Olvidaste la contraseña?</a>
-                    <a href="#">¿No tienes Cuenta? Registrate</a>
-                </div>
-            </div>
-            <div class="inferior">
-                <a href="#">Volver</a>
-            </div>
-        </div>
+    <h1 class="titulo">Acceder al Sitio</h1>
+    <div class="login-page">
+      <div class="form">
+        <form class="login-form">
+          <input type="text" placeholder="Username"/>
+          <input type="password" placeholder="Password"/>
+          <button>login</button>
+          <p class="message">Olvidaste tu Password? <a href="#">Recuperar Contraseña</a></p>
+          <p class="message">No estas registrado)? <a href="#">Crear una cuenta</a></p>
+        </form>
+      </div>
     </div>
 
     
