@@ -258,8 +258,8 @@ body {
   .btn-submit-aceptar {
 
     color: white;
-    background-color:green;
-    border-color: black;
+    background-color:#42db05;
+    border-color: white;
     float:left;
     font-size: 12px;
     width: 170px;
@@ -267,8 +267,8 @@ body {
   }
   .btn-submit-rechazar {
     color: white;
-    background-color:red;
-    border-color: black;
+    background-color:rgb(228, 139, 139);
+    border-color: white;
     float:left;
     font-size: 12px;
     width: 170px;
@@ -328,7 +328,7 @@ body {
     margin-left: 1200px;
   }
 
-  /*FOOTER */
+  /*------------------------------------------FOOTER ------------------------------------------------------*/
   .footer-basic {
     padding:40px;
     background-color:none;
@@ -394,8 +394,9 @@ body {
     margin-bottom:0;
   }
   
-  
-/*=============LOGIN===========================*/
+/*------------------------------------------FOOTER ------------------------------------------------------*/
+
+/*-------------------------------------------LOGIN-------------------------------------------------------*/
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -419,8 +420,10 @@ body {
   border: 0;
   margin: 0 0 15px;
   padding: 15px;
-  box-sizing: border-box;
   font-size: 14px;
+  margin-left: 12%;
+  margin-top: 15px;
+  text-align: center;
 }
 .boton {
   font-family: "Roboto", sans-serif;
@@ -441,15 +444,19 @@ body {
   background: #43A047;
 }
 .form .message {
-  margin: 15px 0 0;
   color: #b3b3b3;
+  margin-left: 37%;
+  margin-top: 15px;
+  text-align: center;
   font-size: 12px;
 }
 .form .message a {
   color: #4CAF50;
+  
   text-decoration: none;
 }
 .form .register-form {
+
   display: none;
 }
 .container {
