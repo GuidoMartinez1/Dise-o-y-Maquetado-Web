@@ -48,7 +48,6 @@ body {
 
   .titulo{
    color: black;
-   width: 80%;
    height: 100%;
    text-align: center;
    font-size: 40px; 
@@ -59,7 +58,16 @@ body {
 
   
   /* =========== BOTON PARA ADJUNTAR ARCHIVO ============ */
-
+  .form-label {
+   color: black;
+   margin-left: 25%;
+   height: 100%;
+   text-align: center;
+   font-size: 40px; 
+   justify-content: center;
+   text-decoration-style: wavy;
+   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  }
 
   .title-container{
     width: 80%;
@@ -90,17 +98,42 @@ body {
     color: #fff !important;
   }
 
-  .seccion {
-    margin-left: 350px;
+  .seccionGR {
     margin-top: 20px;
     width: 800px;
     height: 700px;
     padding: 20px 20px;
     font-size: 15px;
     line-height: 1.5;
-    background: rgb(227, 255, 224);
+    background: rgb(255, 255, 255);
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    border-radius: 5px;
+    border-radius: 15px;
+    text-align: justify;
+  }
+
+  .seccionVT {
+    margin-top: 20px;
+    width: 650px;
+    height: 300px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+    text-align: justify;
+  }
+
+  .seccionHCST {
+    margin-top: 20px;
+    width: 650px;
+    height: 550px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
     text-align: justify;
   }
 
@@ -132,6 +165,7 @@ body {
   .H2HCSectorTerritorial {
     font-size: 30px;
     text-align: center;
+    justify-content: center;
     padding-bottom: 5px;
     padding-top: 100px;
     padding-left: 10px;
@@ -154,10 +188,10 @@ body {
 
   .resultadoHC {
     width: 200px;          
-    height: 200px;          
+    height: 230px;          
     background: rgb(201, 141, 63);       
     border-radius: 20px;
-    margin-left: 37.5%;
+    margin-left: 37%;
     margin-top: 15px;
     text-align: center;
     justify-content: center;
@@ -254,6 +288,10 @@ body {
     margin-left: 45px;
   }
   
+  .grid-item3 {
+    margin-left: 150px;
+  }
+
   .grid-item2 label{
     display:grid;
     column-gap: 25px ; 
@@ -298,9 +336,8 @@ body {
     padding:40px;
     background-color:none;
     color:#4b4c4d;
-    margin-top: 15%;
+    margin-top: 10%;
     display: inline-flex;
-    
   }
   
   .footer-basic ul {
